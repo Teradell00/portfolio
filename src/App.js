@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import shade from './Assets/shade.png'
+
+import Home from './Sections/Home';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className="h-[6000px] w-full bg-primary_black relative flex justify-center ">
+      <img src={shade} className=' -translate-y-64  w-[700px] opacity-30 absolute z-30' alt="" />
+      <Home/>   
     </div>
+
+
+
   );
 }
 
