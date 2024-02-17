@@ -23,14 +23,14 @@ function Home() {
             <div className=''>
             <h1 className='font2 text-[50px] md:text-[90px]  leading-[40px] md:leading-[80px]'>We are <br />&nbsp;&nbsp; Full Service</h1>
             </div>
-            <div className=' -translate-y-[50px] md:-translate-y-[83px] -translate-x-[25px] md:-translate-x-[50px] gap-3 md:gap-5 flex flex-row justify-center items-center relative '>
-            <div className='aboslute md:-translate-y-[120px] -translate-y-[70px] flex flex-row gap-[2px] md:gap-2 translate-x-[43px] md:translate-x-[80px]'>
+            <div className=' -translate-y-[30px] sm:-translate-y-[83px] -translate-x-[25px] sm:-translate-x-[50px] gap-3 sm:gap-5 flex flex-row justify-center items-center relative '>
+            <div className='aboslute sm:-translate-y-[120px] -translate-y-[55px] flex flex-row gap-[2px] sm:gap-2 translate-x-[40px] sm:translate-x-[80px]'>
             <div className='bg-primary_blue w-[15px] h-[15px] md:w-[30px] md:h-[30px] rounded-full  '></div>
             <div className='bg-primary_blue w-[15px] h-[15px] md:w-[30px] md:h-[30px] rounded-full  '></div>
             </div>
-            <h1 className='font1 text-[90px] sm:text-[120px]  md:text-[190px]'>Agency</h1>
+            <h1 className='font1 text-[80px] sm:text-[120px]  md:text-[190px]'>Agency</h1>
              
-            <p className='font3  text-md sm:text-xl md:text-3xl'>Leading the <br /> way in tech <br /> evolution</p>
+            <p className='font3  text-sm sm:text-xl md:text-3xl'>Leading the <br /> way in tech <br /> evolution</p>
             </div>
         
         </div>
